@@ -1,0 +1,180 @@
+.background-image{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    z-index: -1;
+    
+}
+
+.contact-us{
+    color: white;
+    font-size: larger;
+    position: absolute;
+    text-align: center;
+}
+
+.contact-u{
+    font-size: 44px;
+}
+
+
+.trucks{
+    
+    height: 328px;
+    display: flex;
+    flex: 1;
+    object-fit: cover;
+    
+}
+
+.form{
+    display: grid;
+    grid-template-columns: 597px 597px;
+    height: 568px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    
+    
+    background-color: white;
+}
+
+input{
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(200, 200, 200);
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 16px;
+    padding-right: 16px;
+    font-size: 16px;
+    border-radius: 8px;
+    margin-bottom: 12px;
+    margin-right: 24px;
+    height: 60px;
+    background-color: rgb(243, 241, 241);
+    
+}
+
+.basic-contact{
+    display: grid;
+    width: 597px;
+    height: 376px;
+    
+
+}
+
+
+.getintouch{
+    font-size: 40px;
+    font-weight: 700;
+
+}
+
+.support{
+    font-weight: 700
+}
+.fill-form{ 
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 597px;
+    height: 376px;
+
+    
+
+}
+
+.text{
+    
+    
+}
+
+.send-msg{
+    width: 274.5px;
+    height: 86px;
+    background-color: red;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.name{
+    
+    
+}
+
+.subject{
+    
+    
+}
+
+.email{}
+
+
+.map{
+    position: relative;
+    height: 540px;
+    width: 100%;
+    background-image: src='image/banner.jpg';
+    background-color: rgb(103, 86, 119);
+    z-index: -1;
+}
+.address{
+    text-align: center;
+    position: absolute;
+    width: 394px;
+    height: 292px;
+    border-radius: 10px;
+    background-color: white;
+    right: 100px;
+    bottom: 100px;
+}
+.info{
+    display: grid;
+
+    vertical-align: top;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+    grid-template-columns: 1fr 1fr;
+    height: 447.4px;
+    width: 100%;
+    background-color: #181d2e;
+}
+
+
+
+.socials-buttons{
+    border: none;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: white;
+    transition: background-color 0.4s color 0.4s;
+
+}
+
+.socials-buttons:hover{
+    color: white;
+    background-color: red;
+}
+
+
+
+.socials{
+    
+    color: white;
+}
+
+
+.more-info{
+    display: grid;
+    color: white;
+}

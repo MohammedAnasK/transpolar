@@ -1,0 +1,120 @@
+.header{
+    position: fixed;
+    justify-content: center;
+    align-items: center;
+    
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    display: flex;
+    flex-direction: row;
+    height: 80px;
+    z-index: 4px;
+    
+    
+    
+
+    
+}
+.left-section{
+    margin-right: 200px;
+}
+
+.transpolar-button{
+    border-color: transparent;
+    background-color: transparent;
+    height: 44px;
+    width: 100px;
+    font-size: 24px;
+    color: white;
+    cursor: pointer;
+    
+    
+    
+}
+
+
+.home{
+    border-color: transparent;
+    background-color: transparent;
+    height: 44px;
+    width: 100px;
+    font-size: 24px;
+    color: white;
+    transition: color 0.4s;
+    cursor: pointer;
+}
+
+.about{
+    border-color: transparent;
+    background-color: transparent;
+    height: 44px;
+    width: 100px;
+    font-size: 24px;
+    color: white;
+    transition: color 0.4s;
+    cursor: pointer;
+}
+
+.services{
+    border-color: transparent;
+    background-color: transparent;
+    height: 44px;
+    width: 100px;
+    font-size: 24px;
+    color: white;
+    transition: color 0.4s;
+    cursor: pointer;
+}
+
+.pages{
+    border-color: transparent;
+    background-color: transparent;
+    height: 44px;
+    width: 100px;
+    font-size: 24px;
+    color: white;
+    transition: color 0.4s;
+    cursor: pointer;
+    
+    
+
+}
+
+.contact{
+    border-color: transparent;
+    background-color: transparent;
+    height: 44px;
+    width: 100px;
+    font-size: 24px;
+    color: white;
+    transition: color 0.4s;
+    cursor: pointer;
+}
+.night{
+    border-color: transparent;
+    background-color: transparent;
+    height: 44px;
+    width: 100px;
+    font-size: 24px;
+    color: white;
+    transition: color 0.4s;
+    cursor: pointer;
+}
+
+.search{
+    border-color: transparent;
+    background-color: transparent;
+    height: 44px;
+    width: 100px;
+    font-size: 24px;
+    color: white;
+    transition: color 0.4s;
+    cursor: pointer;
+}
+
+.home:hover, .contact:hover, .about:hover,.services:hover, .pages:hover{
+    color: red;
+}
+
+
